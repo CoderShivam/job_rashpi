@@ -13,8 +13,8 @@ const ContestsWithLinks = () => {
         setLoading(true);
         const response = await axios.get("https://clist.by/api/v2/contest/", {
           params: {
-            username: "hsp12", // Replace with your Clist username
-            api_key: "901f776b5275e09893757943d56916ca31b05580", // Replace with your Clist API key
+            username: "hsp12", 
+            api_key: "901f776b5275e09893757943d56916ca31b05580", 
             upcoming: "true",
             order_by: "start",
           },
